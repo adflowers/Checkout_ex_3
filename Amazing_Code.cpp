@@ -16,11 +16,11 @@ int main(int argc, char *argv[]) {
 	std::cout<<"*5 hours pass*"<<std::endl;
 		
 
-	std::cout<<printMoney<<std::endl;
+	std::cout<<printMoney()<<std::endl;
 }
 
 
 string printMoney(int in_money){
-	(void)in_money;
-	return "";
+
+	return "PRINTING "+in_money+" HUNDRED MILLIONS DOLLARS";
 }
